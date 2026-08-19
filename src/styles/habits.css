@@ -1,0 +1,25 @@
+.h-m,.h-f{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.h-f{
+    padding: 10px;
+    gap: 15px;
+}
+
+.h-f input,.h-f button{
+  padding: 7px;
+  border-radius: 10px;
+  font-size: medium;
+  border: #333 1px solid;
+}
+
+
+.h-f button{
+    outline: none;
+    border: none;
+    background-color: blue;
+    color: aliceblue;
+}

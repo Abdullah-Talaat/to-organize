@@ -1,0 +1,66 @@
+.f-m{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+  }
+  
+  .f-f {
+    background-color: #fff;
+    padding: 40px 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .f-f h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .f-f input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .f-f input:focus{
+    border-color: blue;
+    outline: 2px solid blue;
+    box-shadow: 0 0 5px rgba(0,0,255,0.5);
+  }
+  .input-e:focus{
+    border-color: red;
+    outline: 2px solid red;
+    box-shadow: 0 0 5px rgba(255,0,0,0.5);
+
+  }
+  
+  .f-f button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2575fc;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .f-f button:hover {
+    background-color: #6a11cb;
+  }
+  
+  .error {
+    color: red;
+    font-size: 13px;
+  }
